@@ -98,7 +98,7 @@ document.addEventListener('touchend',function(event){
     var daltaY = endY - startY;
 
 
-    if(Math.abs(daltaX) < 0.3 * documentWidth && Math.abs(daltaY) < 0.3 * documentWidth)
+    if(Math.abs(daltaX) < 0.2 * documentWidth && Math.abs(daltaY) < 0.2 * documentWidth)
         return false;
     else
     {
